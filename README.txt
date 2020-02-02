@@ -1,8 +1,23 @@
 This project is basically based on TrafficSign Recognition in both image capture and video capture.
-In this case we use principal of Convolutional Neural Networks 
+In this case we use principal of <b>Convolutional Neural Networks</b> 
 In the preprocessing of data we reshape all the data to a particular dimension as cv2 from opencv does not work with different dimensions images.
 Here we use K-Means Cluster algorithm to build the model
 Lastly to test it we connect the model to webcam and use 3 zones over there zone0,zone1,zone2.
 
 
-Drawbacks: presently its working on blue colored images. (Other work under process) 
+Drawbacks: Presently its working on blue colored images. (Work underprogress) 
+
+<b> Installations </b>
+
+1. Install all the dependency using <b> pip install -r requirements.txt </b>
+
+2. Now run the command. <b> python maincode.py </b>
+
+   It will better if you have installed virtualenv in your system. <b>(pip install virtualenv) </b>
+   
+   <b>Showcase</b>
+   
+   <img src="https://github.com/sayandeepmajumdar/TrafficSignalDetectUsingCNN/blob/master/example_screenshot.png"/>
+   
+   
+   Relax, &#128521; Now do it yourself with coffee &#9749; 
